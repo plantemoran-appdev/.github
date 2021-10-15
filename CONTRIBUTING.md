@@ -14,21 +14,21 @@ Use your best judgment and feel free to propose changes to anything in this repo
 
 **NOTE:** Always be sure to use **_only_** approved versions from the [AppDev Workstation Configuration][repo--appdev-workstation-configuration] guide.
 
-- Install [Git][git] and clone this repository
-- Install [VS Code][vscode]
-  - Install all recommended VS Code extensions (included in /.vscode/extensions.json)
+- Install [Git][git] and clone this repository.
+- Install [VS Code][vscode].
+  - Install all recommended VS Code extensions (included in /.vscode/extensions.json).
 
 ## Documentation styleguide
 
-- Please reference GitHub's [basic writing and formatting syntax][gh-md-syntax-guidance]
-- Use syntax-highlighted examples liberally
+- Please reference GitHub's [basic writing and formatting syntax][gh-md-syntax-guidance].
+- Use syntax-highlighted examples liberally.
 - Write one sentence per line.
 
 ## Making changes
 
-- Create a [topic branch][topic-branch] named appropriately (`<initials>-issue-<issue#>[-additional-info]`)
-  - branches for new features belong in the `feature/` folder
-  - branches for bug fixes belong in the `fix/` folder
+- Create a [topic branch][topic-branch] named appropriately (`<initials>-issue-<issue#>[-additional-info]`).
+  - Branches for new features belong in the `feature/` folder.
+  - Branches for bug fixes belong in the `fix/` folder.
   - examples
     - `feature/mob-issue-123`
     - `feature/daf-issue-456-add-cancel-button`
@@ -37,7 +37,7 @@ Use your best judgment and feel free to propose changes to anything in this repo
 - Once you are ready with your changes, don't forget to self review to quicken the review process :zap:.
   - [ ] Confirm that the changes meet the user experience and goals laid out in the issue/requirements/etc.
   - [ ] You've **tested the changes locally** to confirm desired functionality.
-  - [ ] Ensure any documentation within the code is updated (README, CONTRIBUTING, etc.)
+  - [ ] Ensure any documentation within the code is updated (README, CONTRIBUTING, etc.).
   - [ ] Review the changes for grammar, spelling, etc.
   - [ ] All code, markdown, etc. is properly formatted, linted, etc.
   - [ ] Unit tests are added/updated for changed methods.
@@ -47,10 +47,10 @@ Use your best judgment and feel free to propose changes to anything in this repo
 
 ## Commit messages
 
-- Use the present tense ("Add feature" not "Added feature")
-- Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
-- Limit the first line to 72 characters or less
-- Reference issues and pull requests liberally after the first line
+- Use the present tense ("Add feature" not "Added feature").
+- Use the imperative mood ("Move cursor to..." not "Moves cursor to...").
+- Limit the first line to 72 characters or less.
+- Reference issues and pull requests liberally after the first line.
 
 ## Pull requests
 
@@ -64,6 +64,7 @@ Pull requests serve as the primary mechanism by which contributions are proposed
   - You can apply suggested changes directly through the UI.
   - You can make any other changes in your local branch and push the changes when complete.
 - As you update your PR and apply changes, reply to each conversation that required your attention.
+- Do not resolve conversations created by other users; reviewers will resolve conversations they start.
 
 <!-- reference urls -->
 

@@ -11,7 +11,7 @@ This repo contains 2 types of issue templates:
 
 - markdown templates
 - issue forms templates
-  - NOTE: Issue forms are available in beta for public repositories on GitHub.com
+  - NOTE: Issue forms are available in beta for public repositories on GitHub.com.
   - We have created form templates for when they become available for private repos.
 
 ### Included Templates
