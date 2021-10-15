@@ -62,5 +62,7 @@
   "markdown.extension.toc.orderedList": false,
   "markdown.extension.toc.plaintext": false,
   "markdown.extension.toc.unorderedList.marker": "-",
-  "markdown.extension.toc.updateOnSave": false
+  "markdown.extension.toc.updateOnSave": false,
+  "markdown.extension.orderedList.autoRenumber": true,
+  "markdown.extension.orderedList.marker": "one"
 }
