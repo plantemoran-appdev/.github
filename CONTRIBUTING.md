@@ -7,8 +7,8 @@ Use your best judgment and feel free to propose changes to anything in this repo
 
 ## Creating Issues
 
-- You can [create an issue][gh-issues-new], but before doing that please read the bullets below and include as many details as possible.
-- Perform a [cursory search][gh-issues-search] to see if a similar item has already been submitted.
+- You can [create an issue](../../../issues/new/choose), but before doing that please read the bullets below and include as many details as possible.
+- Perform a [cursory search](../../../issues) to see if a similar item has already been submitted.
 
 ## Recommended setup for contributing
 
@@ -68,8 +68,6 @@ Pull requests serve as the primary mechanism by which contributions are proposed
 
 <!-- reference urls -->
 
-[gh-issues-new]: https://github.com/plantemoran-appdev/.github/issues/new/choose
-[gh-issues-search]: https://github.com/plantemoran-appdev/.github/issues
 [gh-md-syntax-guidance]: https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 [gh-suggested-changes]: https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/incorporating-feedback-in-your-pull-request
 [git]: https://git-scm.com/
