@@ -1,0 +1,26 @@
+{
+  "name": "github",
+  "displayName": "Default (root) GitHub project",
+  "description": "Default (root) GitHub project",
+  "author": {
+    "name": "Michael Obrycki",
+    "email": "michael.obrycki@plantemoran.com"
+  },
+  "contributors": [],
+  "license": "UNLICENSED",
+  "private": true,
+  "homepage": "https://github.com/plantemoran-appdev/.github#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plantemoran-appdev/.github.git"
+  },
+  "bugs": {
+    "url": "https://github.com/plantemoran-appdev/.github/issues"
+  },
+  "scripts": {
+    "lint": "markdownlint **/*.md"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.29.0"
+  }
+}
