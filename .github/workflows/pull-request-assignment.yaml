@@ -1,0 +1,14 @@
+name: Pull Request Auto Assignment
+
+on:
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  pull-request-assignment:
+    name: Pull Request Auto Assignment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull Request Auto Assignment
+        uses: plantemoran-appdev/gh-action-pr-auto-assign@v1
