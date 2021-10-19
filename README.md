@@ -1,5 +1,7 @@
 # Default (root) GitHub project
 
+[![Linting][img-gh-action-lint-badge]][gh-action-lint]
+
 GitHub supports a repository (named `.github`) with files that are inherited by all other projects.
 These "default" files will be used for any repository owned by the account that does not contain its own file of that type.
 
@@ -27,4 +29,6 @@ This special repository also contains a special file `./profile/README.md` that 
 
 <!-- reference urls -->
 
+[gh-action-lint]: https://github.com/plantemoran-appdev/.github/actions/workflows/linting.yaml
 [gh-creating-default-comm-health-file]: https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file
+[img-gh-action-lint-badge]: https://github.com/plantemoran-appdev/.github/actions/workflows/linting.yaml/badge.svg
