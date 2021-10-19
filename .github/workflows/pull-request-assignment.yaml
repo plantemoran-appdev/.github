@@ -12,3 +12,6 @@ jobs:
     steps:
       - name: Pull Request Auto Assignment
         uses: plantemoran-appdev/gh-action-pr-auto-assign@v1
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          additionalAccessPat: ${{ secrets.GH_ACTION_AUTO_ASSIGN_PAT }}
