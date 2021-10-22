@@ -13,6 +13,6 @@ on:
 jobs:
   analyze:
     name: Code Analysis
-    uses: plantemoran-appdev/.github/.github/workflows/code-analysis-reuse.yml@feature/mob-issue-13
+    uses: plantemoran-appdev/.github/.github/workflows/code-analysis-reuse.yml@develop
     with:
       languages: '["javascript"]'
