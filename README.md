@@ -31,7 +31,7 @@ This special repository also contains a special file `./profile/README.md` that 
 <!-- reference urls -->
 
 [gh-action-cvs]: https://github.com/plantemoran-appdev/.github/actions/workflows/code-analysis.yml
-[gh-action-lint]: https://github.com/plantemoran-appdev/.github/actions/workflows/linting.yaml
+[gh-action-lint]: https://github.com/plantemoran-appdev/.github/actions/workflows/linting.yml
 [gh-creating-default-comm-health-file]: https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file
 [img-gh-action-cvs-badge]: https://github.com/plantemoran-appdev/.github/actions/workflows/code-analysis.yml/badge.svg
-[img-gh-action-lint-badge]: https://github.com/plantemoran-appdev/.github/actions/workflows/linting.yaml/badge.svg
+[img-gh-action-lint-badge]: https://github.com/plantemoran-appdev/.github/actions/workflows/linting.yml/badge.svg
