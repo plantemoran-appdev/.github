@@ -1,0 +1,46 @@
+name: Pull Request Required Approvals Check
+
+on:
+  workflow_call:
+    secrets:
+      additional-access-pat:
+        description: The PAT that will be used for additional access
+        required: true
+
+jobs:
+  pull-request-required-approvals-check:
+    name: Pull Request Required Approvals Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull Request Required Approvals Check
+        uses: plantemoran-appdev/gh-action-pr-check-required-approvals@v1
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          additionalAccessPat: ${{ secrets.additional-access-pat }}
+
+      # if there are no required approvals, the gh-action-pr-check-required-approvals action fails
+      # to prevent this workflow from failing, we will cancel it if there are no required approvals
+      # this way, if something truly goes wrong, a failed status really means failed
+      # when cancelled, this workflow will not report success
+      # so if a branch protection policy requires this workflow, it will only pass when this workflow succeeds
+      - name: Cancel Workflow if Missing Required Approval
+        uses: actions/github-script@v2
+        if: ${{ failure() }}
+        id: cancel-workflow
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            console.log('No required approvers found; cancelling run...');
+            const runId = "${{ github.run_id }}";
+            await github.actions.cancelWorkflowRun({ owner, repo, run_id: runId });
+            core.setOutput('WORKFLOW_STATE', 'cancelling');
+          result-encoding: string
+
+      # when cancelling the workflow above, we make a call to the github api
+      # cancelling can take a few seconds, and if we don't wait, this workflow will complete before it is cancelled
+      # therefore, we will wait for a few seconds to let the api cancel this workflow
+      - name: Waiting for Cancellation
+        if: ${{ failure() && steps.cancel-workflow.outputs.WORKFLOW_STATE == 'cancelling' }}
+        run: |
+          echo "Workflow is being cancelled. Waiting for cancellation..."
+          sleep 60
