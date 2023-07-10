@@ -24,7 +24,7 @@ jobs:
       # when cancelled, this workflow will not report success
       # so if a branch protection policy requires this workflow, it will only pass when this workflow succeeds
       - name: Cancel Workflow if Missing Required Approval
-        uses: actions/github-script@v2
+        uses: actions/github-script@v6
         if: ${{ failure() }}
         id: cancel-workflow
         with:
