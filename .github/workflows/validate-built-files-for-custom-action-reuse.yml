@@ -36,7 +36,7 @@ jobs:
 
       # if diff-built-files failed, upload the expected diff/ as an artifact
       - name: Upload expected dist/ files
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         if: ${{ failure() && steps.diff-built-files.conclusion == 'failure' }}
         with:
           name: dist
