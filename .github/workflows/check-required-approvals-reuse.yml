@@ -32,7 +32,7 @@ jobs:
             const { owner, repo } = context.repo;
             console.log('No required approvers found; cancelling run...');
             const runId = "${{ github.run_id }}";
-            await github.actions.cancelWorkflowRun({ owner, repo, run_id: runId });
+            await github.rest.actions.cancelWorkflowRun({ owner, repo, run_id: runId });
             core.setOutput('WORKFLOW_STATE', 'cancelling');
           result-encoding: string
 
