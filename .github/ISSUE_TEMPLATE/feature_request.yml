@@ -20,6 +20,21 @@ body:
 
   - type: textarea
     attributes:
+      label: What is the criteria for testers to pass this feature?
+      description: |
+        A clear and concise description of all acceptance criteria in checkbox-list format.
+        The more details you can provide, the better.
+      placeholder: |
+        - [ ] Click on ...
+        - [ ] Type ...
+        - [ ] ...
+        - [ ] Click ...
+        - [ ] Ensure ...
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
       label: Describe alternatives you've considered.
       description: |
         A clear and concise description of any alternative solutions or features you've considered.
