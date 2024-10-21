@@ -12,7 +12,7 @@ Use your best judgment and feel free to propose changes to anything in this repo
 
 ## Recommended setup for contributing
 
-**NOTE:** Always be sure to use **_only_** approved versions from the [AppDev Workstation Configuration][repo--appdev-workstation-configuration] guide.
+**NOTE:** Always be sure to use **_only_** approved versions from the [Developer Workstation Configuration][developer-workstation-config-docs] guide.
 
 - Install [Git][git] and clone this repository.
 - Install nvm
@@ -143,6 +143,6 @@ Pull requests serve as the primary mechanism by which contributions are proposed
 [gh-suggested-changes]: https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/incorporating-feedback-in-your-pull-request
 [git]: https://git-scm.com/
 [github-flow-guide]: https://guides.github.com/introduction/flow/
-[repo--appdev-workstation-configuration]: https://dev.azure.com/plantemorancode/AppDev%20Starter%20Kits/_git/appdev-workstation-config
 [topic-branch]: https://www.git-scm.com/book/en/v2/Git-Branching-Branching-Workflows#Topic-Branches
 [vscode]: https://code.visualstudio.com/
+[developer-workstation-config-docs]: https://plantemoran-appdev.github.io/github-process-docs/workstation-setup/workstation-config/
