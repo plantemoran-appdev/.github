@@ -1,7 +1,8 @@
 name: '🐛 Bug Report'
 description: We broke something, again.
+type: Bug
 labels: ['bug', 'needs triage :exclamation:']
-title: '[Bug]: <enter title here>'
+title: '**enter the title of your bug here**'
 body:
   - type: markdown
     attributes:
