@@ -1,5 +1,6 @@
 name: '🚀 Feature request'
 description: Suggest a new feature / enhancement for this project
+type: Enhancement
 labels: ['enhancement', 'needs triage :exclamation:']
 title: '**enter the title of your feature request here**'
 body:
