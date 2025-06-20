@@ -8,17 +8,6 @@ body:
       value: |
         **Thanks for reporting an issue!** Please make sure you read our contributing guidelines first, then fill out the fields below.
 
-  - type: dropdown
-    id: issue-type
-    attributes:
-      label: Issue Type
-      description: What type of issue is this?
-      options:
-        - Bug
-      default: 0
-    validations:
-      required: true
-
   - type: textarea
     attributes:
       label: What are the steps to reproduce this issue?
