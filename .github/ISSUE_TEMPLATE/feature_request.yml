@@ -1,8 +1,19 @@
 name: '🚀 Feature request'
 description: Suggest a new feature / enhancement for this project
 labels: ['enhancement', 'needs triage :exclamation:']
-title: '[Feature]: <enter title here>'
+title: '**enter the title of your feature request here**'
 body:
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      description: What type of issue is this?
+      options:
+        - Enhancement
+      default: 0
+    validations:
+      required: true
+
   - type: textarea
     attributes:
       label: What problem are you trying to solve?
