@@ -10,19 +10,18 @@ For more information, please see [Creating a default community health file][gh-c
 
 ## Issue Templates
 
-This repo contains 2 types of issue templates:
+This repo uses GitHub Issue Forms for standardized issue creation across repositories in this organization.
 
-- markdown templates
-- issue forms templates
-  - NOTE: Issue forms are available in beta for public repositories on GitHub.com.
-  - We have created form templates for when they become available for private repos.
+### Included Issue Templates
 
-### Included Templates
-
-- Bug Report
-  - This template will be used when creating bugs.
-- Feature Request
-  - This template will be used when requesting a new feature or enhancement.
+- 🐛 Bug Report
+  - For reporting bugs or defects.
+- 📦 Epic
+  - For tracking larger bodies of work that can be broken down into features, user stories, and tasks.
+- 🚀 Feature Request
+  - For requesting new features or enhancements.
+- 📖 User Story
+  - For user-focused stories describing a capability and its acceptance criteria.
 
 ## Organization Profile
 
