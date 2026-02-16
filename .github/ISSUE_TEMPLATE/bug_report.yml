@@ -7,7 +7,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Thanks for reporting an issue!** Please make sure you read our contributing guidelines first, then fill out the fields below.
+        **Thanks for reporting an issue!**
+        Please make sure you read our contributing guidelines first, then fill out the fields below.
 
   - type: textarea
     attributes:
@@ -46,5 +47,5 @@ body:
   - type: textarea
     id: bug-context
     attributes:
-      label: Additional context
+      label: Additional Context
       description: Add any other context you can provide about the problem here.

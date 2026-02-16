@@ -20,7 +20,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Success criteria
+      label: Success Criteria
       description: |
         Measurable outcomes that define "done" for this epic.
       placeholder: |
@@ -38,7 +38,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Additional context
+      label: Additional Context
       description: Screenshots, mockups, links, or any other supporting information.
     validations:
       required: false
