@@ -12,7 +12,7 @@ body:
 
   - type: textarea
     attributes:
-      label: User story
+      label: User Story
       description: Describe the story using the standard format.
       placeholder: |
         As a [role],
@@ -23,7 +23,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Acceptance criteria
+      label: Acceptance Criteria
       description: |
         Testable conditions that must be met for this story to be considered done.
       placeholder: |
@@ -34,21 +34,21 @@ body:
 
   - type: textarea
     attributes:
-      label: Design / UI references
+      label: Design / UI References
       description: Links to mockups, wireframes, or design specs.
     validations:
       required: false
 
   - type: textarea
     attributes:
-      label: Technical notes
+      label: Technical Notes
       description: Implementation considerations, constraints, or relevant technical details.
     validations:
       required: false
 
   - type: textarea
     attributes:
-      label: Additional context
+      label: Additional Context
       description: Any other supporting information, screenshots, or links.
     validations:
       required: false
