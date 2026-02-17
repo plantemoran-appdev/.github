@@ -38,7 +38,7 @@ body:
         - [ ] Documentation updated
         - [ ] Code reviewed and approved
     validations:
-      required: true
+      required: false
 
   - type: textarea
     attributes:
