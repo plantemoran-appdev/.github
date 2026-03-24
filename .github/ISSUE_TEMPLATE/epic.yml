@@ -21,8 +21,7 @@ body:
   - type: textarea
     attributes:
       label: Success Criteria
-      description: |
-        Measurable outcomes that define "done" for this epic.
+      description: Measurable outcomes that define "done" for this epic.
       placeholder: |
         - [ ] ...
         - [ ] ...
