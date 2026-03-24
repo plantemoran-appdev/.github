@@ -17,7 +17,7 @@ body:
       placeholder: |
         As a <persona>,
         I want <capability>,
-        So that <benefit/value>.
+        so that <benefit/value>.
     validations:
       required: true
 
