@@ -8,24 +8,23 @@ body:
     attributes:
       value: |
         **Thanks for creating a user story!**
-        Please use the "As a / I want / So that" format below to clearly describe the desired functionality.
+        Please use the "As a <persona>, I want <capability>, so that <benefit/value>" format below to clearly describe the desired functionality.
 
   - type: textarea
     attributes:
       label: User Story
       description: Describe the story using the standard format.
       placeholder: |
-        As a [role],
-        I want [capability],
-        So that [benefit].
+        As a <persona>,
+        I want <capability>,
+        So that <benefit/value>.
     validations:
       required: true
 
   - type: textarea
     attributes:
       label: Acceptance Criteria
-      description: |
-        Testable conditions that must be met for this story to be considered done.
+      description: Testable conditions that must be met for this story to be considered done.
       placeholder: |
         - [ ] ...
         - [ ] ...
@@ -49,6 +48,6 @@ body:
   - type: textarea
     attributes:
       label: Additional Context
-      description: Any other supporting information, screenshots, or links.
+      description: Screenshots, mockups, links, or any other supporting information.
     validations:
       required: false
